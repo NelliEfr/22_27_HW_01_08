@@ -1,0 +1,12 @@
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    background-color: rgb(243, 243, 189);
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .root {
+    display: flex;
+  }

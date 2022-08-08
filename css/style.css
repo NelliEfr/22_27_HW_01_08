@@ -1,0 +1,17 @@
+* {
+    padding: 2px;
+    margin: 0;
+}
+
+.cardConteiner {
+    width: 300px;
+    background-color: blanchedalmond;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.photo {
+    border-radius: 45%;
+}
