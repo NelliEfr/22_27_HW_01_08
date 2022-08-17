@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.form input {
+    margin: 5px 10px;
+}
+
+.form button {
+    margin: 5px 10px;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    background-color: bisque;
+}
+
+img {
+    width: 100px;
+    margin: 10px 0;
+}
+
+.progress-container {
+    border: 2px solid black;
+    height: 20px;
+    position: relative;
+}
+
+.progress-line {
+    background-color: coral;
+    height: 100%;
+    position: absolute;
+}
+
+.progress-value {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
