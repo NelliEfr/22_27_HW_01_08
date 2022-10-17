@@ -1,0 +1,7 @@
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 405px;
+    margin-top: 452px;
+}
