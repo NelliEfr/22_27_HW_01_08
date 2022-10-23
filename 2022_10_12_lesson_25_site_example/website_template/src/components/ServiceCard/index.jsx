@@ -7,8 +7,8 @@ export default function ServiceCard({ title, img }) {
         backgroundImage: `url(${img})`
     }
     return (
-        <div style={card_style} className={s.service_card}>
-            <div className={s.service_card_text}>{title}</div>
+        <div style={card_style} className={s.card_item}>
+            {title}
         </div>
     )
 }

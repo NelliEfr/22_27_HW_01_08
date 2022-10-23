@@ -1,11 +1,10 @@
-.service_card{
+.service_card {
     width: 350px;
     height: 360px;
     color: white;
-    
 }
 
-.service_card_text{
+.service_card_text {
     font-weight: 900;
     margin: 261px 118px 65px 65px;
     font-size: 24px;
@@ -14,4 +13,13 @@
     font-style: normal;
     position: absolute;
     width: 187px;
+}
+
+.card_item {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 45px;
 }
