@@ -1,0 +1,15 @@
+.root{
+    width: 400px;
+    background-color: antiquewhite;
+    border: solid black 1px;
+    border-radius: 1%;
+    padding: 0 5px;
+    margin: 1px 1px;
+    
+}
+
+.root>img{
+    width: 50%;
+    display: block;
+    margin-bottom: 8px;
+}

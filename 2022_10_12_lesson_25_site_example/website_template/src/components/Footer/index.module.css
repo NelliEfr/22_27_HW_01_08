@@ -1,0 +1,17 @@
+.footer {
+    height: 134px;
+    width: 1108px;
+    left: 199px;
+    top: 2876px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    height: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}

@@ -1,0 +1,15 @@
+.root {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+
+.root>div {
+    background-color: rgb(33, 60, 88);
+    color: aliceblue;
+}
+
+.root>div>img {
+    width: 150px;
+    border: double;
+}

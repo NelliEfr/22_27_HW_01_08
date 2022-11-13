@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 1rem;
+    margin-left: 1vh;
+}
+
+.progress_bar {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+.progress_frame {
+    border: solid black 1px;
+    width: 200px;
+}
+
+.card {
+    gap: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px ;
+    width: 200px;
+    padding: 1rem;
+    margin-left: 1vh;
+    background: linear-gradient(5deg, hsl(183, 86%, 80%), hsl(288, 55%, 65%), hsl(0, 60%, 80%));
+}
+
+.card>img {
+    width: 200px;
+}
