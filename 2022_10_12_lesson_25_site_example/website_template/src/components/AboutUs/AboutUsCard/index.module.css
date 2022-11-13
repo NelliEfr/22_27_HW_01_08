@@ -21,6 +21,20 @@
     background-color: #005FA3;
 }
 
-.about_us_card_item:hover a {
+
+.about_us_card_item:hover button {
     color: white;
+    border-color: white;
+}
+
+@media (max-width: 1000px) {
+    .about_us_card_item {
+        flex-direction: row;
+        height: 120px;
+        align-items: center;
+    }
+
+    .about_us_card_item p {
+        width: 120px;
+    }
 }

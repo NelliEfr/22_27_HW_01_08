@@ -3,6 +3,7 @@ import CardsContainer from '../CardsContainer';
 import Triggers from '../Triggers';
 import { useState } from 'react';
 import Form from '../Form';
+import { Context } from '../../context';
 
 function App() {
   const [cards, setCards] = useState(words);
@@ -50,9 +51,11 @@ function App() {
   ]);
   return (
     <div>
-      <Form add_card={add_card} />
-      <CardsContainer cards={cards} change_to_rus={change_to_rus} change_to_de={change_to_de} change_lang={change_lang} deleteCard={deleteCard} />
-      <Triggers change_to_rus={change_to_rus} change_to_de={change_to_de} />
+      <Context.Provider value={{ cards, add_card, change_to_rus, change_to_de, change_lang, deleteCard }}>
+        <Form />
+        <CardsContainer />
+        <Triggers />
+      </Context.Provider>
     </div>
   );
 }
